@@ -4,6 +4,6 @@
 
 #include "function.h"
 
-int function::gcl(int a, int b) {
+int  function::gcl(int a, int b) {
     return b == 0 ? a : gcl(b, a % b);
 }
