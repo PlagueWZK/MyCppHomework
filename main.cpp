@@ -1,8 +1,5 @@
-#include <iostream>
-using namespace std;
+#include "function.h"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    cout<<"nice"<<endl;
-    //again
+    std::cout<<function::gcl(12,24)<<std::endl;
     return 0;
 }
