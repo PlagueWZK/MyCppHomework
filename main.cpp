@@ -1,5 +1,5 @@
-#include "function.h"
+#include "Util.h"
 int main() {
-    std::cout<<function::gcl(12,24)<<std::endl;
+    std::cout << Util::gcl(12, 24) << std::endl;
     return 0;
 }
