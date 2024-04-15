@@ -1,6 +1,4 @@
-//
-// Created by 王政凯 on 2024/4/14.
-//
+
 
 #include "Util.h"
 
