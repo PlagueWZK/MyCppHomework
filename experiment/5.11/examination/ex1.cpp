@@ -4,50 +4,48 @@ using namespace std;
 
 class Time
 
- {public:
+{
+public:
+  Time(int, int, int);
 
-   Time(int,int,int);
+  void fun(int &t)
 
-   void fun(  int &t )
+  {
 
-   {
+    hour = t;
 
-      hour=t;
+    t = 18;
+  }
 
-      t= 18;
+  int hour;
 
-   }
+  int minute;
 
-   int hour;
+  int sec;
+};
 
-   int minute;
+Time::Time(int h, int m, int s)
 
-   int sec;
+{
+  hour = h;
 
- }; 
+  minute = m;
 
-Time::Time(int h,int m,int s)
-
- {   hour=h;
-
-     minute=m;
-
-     sec=s;
-
- }
+  sec = s;
+}
 
 int main()
 
-{int x=15;
+{
+  int x = 15;
 
-Time t1(10,13,56);
+  Time t1(10, 13, 56);
 
-t1.fun(x);
+  t1.fun(x);
 
-cout<<t1.hour<<" ";
+  cout << t1.hour << " ";
 
-cout<<x<<endl;
+  cout << x << endl;
 
-return 0;
-
+  return 0;
 }
